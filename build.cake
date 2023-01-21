@@ -1,11 +1,11 @@
 var target = Argument("target", "Default");
 
-var solutionFile = "./src/AutoFixture.Community.ImmutableCollections.sln";
+var solutionFile = "./src/AutoMapper.Extensions.ImmutableCollections.sln";
 var packages = new List<Package>
 {
   new Package
   {
-    Project = "AutoFixture.Community.ImmutableCollections",
+    Project = "AutoMapper.Extensions.ImmutableCollections",
     Targets = new []{"netstandard2.0"}
   }
 };
