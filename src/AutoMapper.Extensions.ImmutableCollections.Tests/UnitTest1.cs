@@ -29,6 +29,7 @@ namespace AutoMapper.Extensions.ImmutableCollections.Tests
       result.Should().BeEquivalentTo(expectedCollection);
     }
 
+    // ReSharper disable once InconsistentNaming
     public static IEnumerable<object[]> Test1_Data
     {
       get
@@ -42,7 +43,7 @@ namespace AutoMapper.Extensions.ImmutableCollections.Tests
         yield return TestCase<List<int>, ImmutableSortedSet<int>>(ImmutableSortedSet.ToImmutableSortedSet);
         yield return TestCase<List<int>, ImmutableArray<int>>(ImmutableArray.ToImmutableArray);
         yield return TestCase<Dictionary<int, int>, ImmutableDictionary<int, int>>(ImmutableDictionary.ToImmutableDictionary);
-        yield return TestCase<List<int>, ImmutableList<int>>(ImmutableList.ToImmutableList);
+        yield return TestCase<Dictionary<int, int>, ImmutableSortedDictionary<int, int>>(ImmutableSortedDictionary.ToImmutableSortedDictionary);
 
         object[] TestCase<TSourceCollection, TCollection>(
           Func<TSourceCollection, TCollection> creator

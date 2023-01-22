@@ -15,6 +15,8 @@ namespace AutoMapper.Extensions.ImmutableCollections.Sandbox
         configuration.AddProfile<ImmutableCollectionsProfile>();
       }).CreateMapper();
 
+      var immutableImmutableList = mapper.Map<ImmutableList<int>>(null);
+      var immutableArray1 = mapper.Map<ImmutableArray<int>>(null);
       var dict = new Dictionary<string, int> { { "1", 1 } }.AsEnumerable();
       var immutableImmutableDictionary = mapper.Map<ImmutableDictionary<string, int>>(dict);
       var immutableArray = ImmutableArray<string>.Empty.Add("Hello, World!");
