@@ -6,7 +6,7 @@ using AutoFixture;
 using FluentAssertions;
 using Xunit;
 
-namespace AutoMapper.Extensions.ImmutableCollections.Tests
+namespace AutoMapper.Contrib.ImmutableCollections.Tests
 {
   public class ImmutableCollectionsProfileTests
   {

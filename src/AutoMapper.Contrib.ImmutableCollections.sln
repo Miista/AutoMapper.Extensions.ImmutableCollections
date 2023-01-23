@@ -1,14 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapper.Extensions.ImmutableCollections", "AutoMapper.Extensions.ImmutableCollections\AutoMapper.Extensions.ImmutableCollections.csproj", "{D9A9D232-A0C8-4319-BCA6-64C2E676E7B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapper.Contrib.ImmutableCollections", "AutoMapper.Contrib.ImmutableCollections\AutoMapper.Contrib.ImmutableCollections.csproj", "{D9A9D232-A0C8-4319-BCA6-64C2E676E7B8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Project", "1. Project", "{17D313A5-192E-4BC0-BEB8-9DECA25535F7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Feature", "2. Feature", "{05621754-EB72-4958-8D85-EF83271B79FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapper.Extensions.ImmutableCollections.Sandbox", "AutoMapper.Extensions.ImmutableCollections.Sandbox\AutoMapper.Extensions.ImmutableCollections.Sandbox.csproj", "{C82FB616-E2AB-46F4-B17E-9590BBA9C901}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapper.Contrib.ImmutableCollections.Sandbox", "AutoMapper.Contrib.ImmutableCollections.Sandbox\AutoMapper.Contrib.ImmutableCollections.Sandbox.csproj", "{C82FB616-E2AB-46F4-B17E-9590BBA9C901}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapper.Extensions.ImmutableCollections.Tests", "AutoMapper.Extensions.ImmutableCollections.Tests\AutoMapper.Extensions.ImmutableCollections.Tests.csproj", "{C03CA6EC-6869-40D2-BBA0-37C7525F2C25}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapper.Contrib.ImmutableCollections.Tests", "AutoMapper.Contrib.ImmutableCollections.Tests\AutoMapper.Contrib.ImmutableCollections.Tests.csproj", "{C03CA6EC-6869-40D2-BBA0-37C7525F2C25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Tooling", "0. Tooling", "{2FCFC44C-792A-4A1D-A36F-136B22DBF16D}"
+	ProjectSection(SolutionItems) = preProject
+		..\build.cake = ..\build.cake
+		..\nuget\AutoMapper.Contrib.ImmutableCollections.nuspec = ..\nuget\AutoMapper.Contrib.ImmutableCollections.nuspec
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

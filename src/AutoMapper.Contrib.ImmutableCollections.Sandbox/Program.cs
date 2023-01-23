@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Linq;
 
-namespace AutoMapper.Extensions.ImmutableCollections.Sandbox
+namespace AutoMapper.Contrib.ImmutableCollections.Sandbox
 {
   class Program
   {

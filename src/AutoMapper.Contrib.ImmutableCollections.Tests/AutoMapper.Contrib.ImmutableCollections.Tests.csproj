@@ -4,6 +4,10 @@
         <TargetFramework>netcoreapp2.2</TargetFramework>
 
         <IsPackable>false</IsPackable>
+
+        <AssemblyName>AutoMapper.Contrib.ImmutableCollections.Tests</AssemblyName>
+
+        <RootNamespace>AutoMapper.Contrib.ImmutableCollections.Tests</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -17,7 +21,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\AutoMapper.Extensions.ImmutableCollections\AutoMapper.Extensions.ImmutableCollections.csproj" />
+      <ProjectReference Include="..\AutoMapper.Contrib.ImmutableCollections\AutoMapper.Contrib.ImmutableCollections.csproj" />
     </ItemGroup>
 
 </Project>

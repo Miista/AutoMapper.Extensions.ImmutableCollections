@@ -1,17 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <OutputType>Exe</OutputType>
-        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <AssemblyName>AutoMapper.Contrib.ImmutableCollections</AssemblyName>
+        <RootNamespace>AutoMapper.Contrib.ImmutableCollections</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="AutoMapper" Version="10.1.1" />
       <PackageReference Include="System.Collections.Immutable" Version="1.7.1" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\AutoMapper.Extensions.ImmutableCollections\AutoMapper.Extensions.ImmutableCollections.csproj" />
     </ItemGroup>
 
 </Project>

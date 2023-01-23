@@ -1,11 +1,11 @@
 var target = Argument("target", "Default");
 
-var solutionFile = "./src/AutoMapper.Extensions.ImmutableCollections.sln";
+var solutionFile = "./src/AutoMapper.Contrib.ImmutableCollections.sln";
 var packages = new List<Package>
 {
   new Package
   {
-    Project = "AutoMapper.Extensions.ImmutableCollections",
+    Project = "AutoMapper.Contrib.ImmutableCollections",
     Targets = new []{"netstandard2.0"}
   }
 };
