@@ -122,10 +122,6 @@ namespace AutoMapper.Extensions.ImmutableCollections
         ResolutionContext context)
       {
         return ConvertEnumerable(context.Mapper.Map<IEnumerable<TDestination>>(source));
-        var convertedEnumerable = source.Select(context.Mapper.Map<TSource, TDestination>);
-        var immutableCollection = ConvertEnumerable(convertedEnumerable);
-
-        return immutableCollection;
       }
 
       protected abstract TImmutableCollection ConvertEnumerable(IEnumerable<TDestination> enumerable);
